@@ -1,0 +1,36 @@
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                             http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="2" author="sai">
+        <insert tableName="users">
+            <column name="id" value="101"/>
+            <column name="user_name" value="jacks"/>
+            <column name="age" value="27"/>
+        </insert>
+        <insert tableName="users">
+            <column name="id" value="102"/>
+            <column name="user_name" value="will"/>
+            <column name="age" value="25"/>
+        </insert>
+        <insert tableName="users">
+            <column name="id" value="103"/>
+            <column name="user_name" value="anderson"/>
+            <column name="age" value="37"/>
+        </insert>
+        <insert tableName="users">
+            <column name="id" value="104"/>
+            <column name="user_name" value="cook"/>
+            <column name="age" value="19"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="id" value="106"/>
+            <column name="user_name" value="jos"/>
+            <column name="age" value="29"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>

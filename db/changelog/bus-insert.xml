@@ -1,0 +1,149 @@
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                             http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="4" author="sai">
+        <insert tableName="bus">
+            <column name="bus_id" valueNumeric="1001"/>
+            <column name="id" valueNumeric="101"/>
+            <column name="origin" value="vizag"/>
+            <column name="destination" value="hyd"/>
+            <column name="price" valueNumeric="3000"/>
+            <column name="occupiedseats" valueNumeric="36"/>
+            <column name="availableseats" valueNumeric="4"/>
+
+            <column name="pendingseats" valueNumeric="2"/>
+
+        </insert>
+        <comment>Inserting bus</comment>
+        <insert tableName="bus">
+            <column name="bus_id" valueNumeric="1002"/>
+            <column name="id" valueNumeric="102"/>
+            <column name="origin" value="vizag"/>
+            <column name="destination" value="hyd"/>
+            <column name="price" valueNumeric="3200"/>
+            <column name="occupiedseats" valueNumeric="37"/>
+            <column name="availableseats" valueNumeric="3"/>
+
+            <column name="pendingseats" valueNumeric="2"/>
+
+        </insert>
+
+        <comment>Inserting bus</comment>
+        <insert tableName="bus">
+            <column name="bus_id" valueNumeric="1003"/>
+            <column name="id" valueNumeric="103"/>
+            <column name="origin" value="sklm"/>
+            <column name="destination" value="vizag"/>
+            <column name="price" valueNumeric="300"/>
+            <column name="occupiedseats" valueNumeric="36"/>
+            <column name="availableseats" valueNumeric="4"/>
+
+            <column name="pendingseats" valueNumeric="2"/>
+
+        </insert>
+
+        <comment>Inserting bus</comment>
+        <insert tableName="bus">
+            <column name="bus_id" valueNumeric="1004"/>
+            <column name="id" valueNumeric="104"/>
+            <column name="origin" value="vizag"/>
+            <column name="destination" value="guntur"/>
+            <column name="price" valueNumeric="3500"/>
+            <column name="occupiedseats" valueNumeric="34"/>
+            <column name="availableseats" valueNumeric="4"/>
+
+            <column name="pendingseats" valueNumeric="4"/>
+
+        </insert>
+
+        <comment>Inserting bus</comment>
+        <insert tableName="bus">
+            <column name="bus_id" valueNumeric="1005"/>
+            <column name="id" valueNumeric="104"/>
+            <column name="origin" value="sklm"/>
+            <column name="destination" value="hyd"/>
+            <column name="price" valueNumeric="3500"/>
+            <column name="occupiedseats" valueNumeric="36"/>
+            <column name="availableseats" valueNumeric="4"/>
+
+            <column name="pendingseats" valueNumeric="2"/>
+
+        </insert>
+
+        <comment>Inserting bus</comment>
+        <insert tableName="bus">
+            <column name="bus_id" valueNumeric="1006"/>
+            <column name="id" valueNumeric="103"/>
+            <column name="origin" value="vizag"/>
+            <column name="destination" value="hyd"/>
+            <column name="price" valueNumeric="3000"/>
+            <column name="occupiedseats" valueNumeric="36"/>
+            <column name="availableseats" valueNumeric="4"/>
+
+            <column name="pendingseats" valueNumeric="2"/>
+
+        </insert>
+
+        <comment>Inserting bus</comment>
+        <insert tableName="bus">
+            <column name="bus_id" valueNumeric="1007"/>
+            <column name="id" valueNumeric="104"/>
+            <column name="origin" value="vizag"/>
+            <column name="destination" value="guntur"/>
+            <column name="price" valueNumeric="3500"/>
+            <column name="occupiedseats" valueNumeric="35"/>
+            <column name="availableseats" valueNumeric="5"/>
+
+            <column name="pendingseats" valueNumeric="2"/>
+
+        </insert>
+
+        <comment>Inserting bus</comment>
+        <insert tableName="bus">
+            <column name="bus_id" valueNumeric="1008"/>
+            <column name="id" valueNumeric="102"/>
+            <column name="origin" value="sklm"/>
+            <column name="destination" value="hyd"/>
+            <column name="price" valueNumeric="3500"/>
+            <column name="occupiedseats" valueNumeric="36"/>
+            <column name="availableseats" valueNumeric="4"/>
+
+            <column name="pendingseats" valueNumeric="2"/>
+
+        </insert>
+
+        <comment>Inserting bus</comment>
+        <insert tableName="bus">
+            <column name="bus_id" valueNumeric="1009"/>
+            <column name="id" valueNumeric="103"/>
+            <column name="origin" value="vizag"/>
+            <column name="destination" value="hyd"/>
+            <column name="price" valueNumeric="3000"/>
+            <column name="occupiedseats" valueNumeric="36"/>
+            <column name="availableseats" valueNumeric="4"/>
+
+            <column name="pendingseats" valueNumeric="2"/>
+
+        </insert>
+
+        <comment>Inserting bus</comment>
+        <insert tableName="bus">
+            <column name="bus_id" valueNumeric="1010"/>
+            <column name="id" valueNumeric="106"/>
+            <column name="origin" value="vizag"/>
+            <column name="destination" value="hyd"/>
+            <column name="price" valueNumeric="3000"/>
+            <column name="occupiedseats" valueNumeric="33"/>
+            <column name="availableseats" valueNumeric="5"/>
+
+            <column name="pendingseats" valueNumeric="4"/>
+
+
+
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>
